@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ye Xing Sourcing — Factory Sourcing from China</title>
+<meta name="description" content="Tell us what you need to buy from China. We compare vetted factories, arrange samples and check quality before shipment. Flagship categories: lighting and massage chairs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#10282D; --ink-2:#1C3C42; --paper:#F3F5F4; --card:#FFFFFF; --line:#D9E0DE;
+  --text:#1E2B2E; --muted:#5B6B6E; --accent:#D98E2B; --accent-ink:#5A3500; --ok:#2F6B4F;
+  --display:"Archivo", "Arial Narrow", Arial, sans-serif; --body:"Source Sans 3", "Segoe UI", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --paper:#0D1B1E; --card:#132629; --line:#27403F; --text:#E4ECEA; --muted:#9FB1AF; --ink:#08171A; --ink-2:#142E33; --accent:#E8A24A; --accent-ink:#2A1800; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);line-height:1.15;margin:0;text-wrap:balance}
+h2{font-size:clamp(28px,3.4vw,40px);font-weight:800;letter-spacing:-.01em}
+.eyebrow{font-family:var(--display);font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.lead{color:var(--muted);max-width:62ch;margin:14px 0 0}
+section{padding:84px 0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-weight:700;padding:15px 24px;border-radius:6px;text-decoration:none;border:0;cursor:pointer;font-size:16px}
+.btn:hover{filter:brightness(1.06)}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35)}
+
+/* header + hero */
+header{background:var(--ink);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.brand{font-family:var(--display);font-weight:800;font-size:20px;letter-spacing:.01em}
+.brand span{color:var(--accent)}
+.nav a.navlink{color:#cfdcda;text-decoration:none;font-size:15px;margin-left:24px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;padding:56px 0 88px;align-items:end}
+.hero h1{font-size:clamp(38px,5.6vw,68px);font-weight:800;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:#c5d3d1;font-size:19px;max-width:54ch;margin:22px 0 32px}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px}
+.ticket{background:var(--ink-2);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:24px}
+.ticket h3{font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:#9fb5b2;font-weight:700;margin-bottom:14px}
+.ticket dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:10px 16px;font-size:15px}
+.ticket dt{color:#8ea6a3}
+.ticket dd{margin:0;color:#fff}
+.ticket .stamp{margin-top:18px;padding-top:14px;border-top:1px dashed rgba(255,255,255,.2);font-size:14px;color:#c5d3d1}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:40px;border-top:2px solid var(--ink)}
+@media (prefers-color-scheme: dark){.steps{border-top-color:var(--accent)}}
+.step{padding:24px 22px 0 0}
+.step b{font-family:var(--display);font-size:14px;color:var(--accent);letter-spacing:.1em}
+.step h3{font-size:21px;margin:10px 0 8px}
+.step p{margin:0;color:var(--muted);font-size:16px}
+
+/* categories */
+.cats{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:30px}
+.cat .tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;background:var(--accent);color:var(--accent-ink);padding:4px 10px;border-radius:4px}
+.cat h3{font-size:26px;margin:14px 0 10px}
+.cat ul{margin:0;padding-left:18px;color:var(--muted)}
+.cat li{margin:4px 0}
+.others{margin-top:20px;padding:22px 30px;border:1px dashed var(--line);border-radius:10px;color:var(--muted)}
+.others strong{color:var(--text)}
+
+/* why */
+.why{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:40px}
+.why-grid h3{font-size:20px;margin-bottom:8px}
+.why-grid p{margin:0;color:var(--muted)}
+.mark{display:inline-block;width:28px;height:4px;background:var(--accent);margin-bottom:14px}
+
+/* form */
+.rfq{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+form{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:600}
+label.full{grid-column:1/-1}
+input,textarea,select{font:inherit;font-weight:400;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--text)}
+textarea{min-height:110px;resize:vertical}
+.req{color:var(--accent)}
+.form-note{grid-column:1/-1;font-size:13px;color:var(--muted);margin:0}
+.checklist{list-style:none;padding:0;margin:24px 0 0}
+.checklist li{padding:10px 0;border-bottom:1px solid var(--line);display:flex;gap:12px}
+.checklist li::before{content:"";flex:0 0 10px;height:10px;margin-top:8px;border-radius:50%;background:var(--ok)}
+
+/* faq + about */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{cursor:pointer;font-weight:600;font-size:18px}
+details p{color:var(--muted);margin:10px 0 0}
+footer{background:var(--ink);color:#b9c8c6;padding:36px 0;font-size:15px}
+footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
+@media (max-width:860px){
+  .hero,.rfq,.two,.cats{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr}
+  form{grid-template-columns:1fr}
+  .nav a.navlink{display:none}
+}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <div class="brand">Ye Xing <span>Sourcing</span></div>
+      <div><a class="navlink" href="#how">How it works</a><a class="navlink" href="#categories">Categories</a><a class="navlink" href="#faq">FAQ</a><a class="navlink" href="#request">Request a quote</a></div>
+    </nav>
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Factory sourcing from China</div>
+        <h1>Tell us what you need. <em>We find the right factory.</em></h1>
+        <p>Send your product, specs and quantity. We compare quotes from vetted factories, arrange samples, and check the goods before they ship — so you buy at factory prices without guessing on quality.</p>
+        <div class="cta-row">
+          <a class="btn" href="#request">Send a sourcing request →</a>
+          <a class="btn btn-ghost" href="mailto:yex697662@gmail.com">Email us directly</a>
+        </div>
+      </div>
+      <aside class="ticket" aria-label="What a request looks like">
+        <h3>Example request</h3>
+        <dl>
+          <dt>Product</dt><dd>All-in-one solar street light</dd>
+          <dt>Spec</dt><dd>100W, LiFePO4, IP65</dd>
+          <dt>Quantity</dt><dd>500 pcs</dd>
+          <dt>Ship to</dt><dd>Mombasa, Kenya</dd>
+        </dl>
+        <div class="stamp">You receive: factory options, quotations, sample plan and inspection plan — first reply within 24 hours.</div>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="how">
+    <div class="wrap">
+      <div class="eyebrow">How it works</div>
+      <h2>From request to shipment in four steps</h2>
+      <div class="steps">
+        <div class="step"><b>01</b><h3>Send your request</h3><p>Product, specs, quantity, target price and destination.</p></div>
+        <div class="step"><b>02</b><h3>Compare factories</h3><p>We shortlist suitable factories and send you side-by-side quotations.</p></div>
+        <div class="step"><b>03</b><h3>Sample &amp; verify</h3><p>Samples before bulk, and a live video tour of the factory on request.</p></div>
+        <div class="step"><b>04</b><h3>Inspect &amp; ship</h3><p>Photos and video of finished goods before shipment; third-party inspection available.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" style="padding-top:0">
+    <div class="wrap">
+      <div class="eyebrow">What we source</div>
+      <h2>Any product — with two categories we know best</h2>
+      <p class="lead">Our partner factories cover a wide range. Lighting and massage chairs are the categories where we work most closely with manufacturers.</p>
+      <div class="cats">
+        <article class="cat">
+          <span class="tag">Flagship</span>
+          <h3>Lighting</h3>
+          <ul>
+            <li>All-in-one and split solar street lights</li>
+            <li>LED street lights and flood lights</li>
+            <li>Commercial and project lighting</li>
+            <li>Trial orders through full containers</li>
+          </ul>
+        </article>
+        <article class="cat">
+          <span class="tag">Flagship</span>
+          <h3>Massage chairs</h3>
+          <ul>
+            <li>OEM / ODM models for retail brands</li>
+            <li>3D / 4D mechanisms, SL-track, zero-gravity</li>
+            <li>App control, custom upholstery and logo</li>
+            <li>Private label and second-supplier sourcing</li>
+          </ul>
+        </article>
+      </div>
+      <div class="others"><strong>Need something else?</strong> Home and furniture, hardware and tools, electronics accessories, packaging and more — send the details and we'll tell you honestly whether we can source it well.</div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="wrap">
+      <div class="eyebrow">Why buyers work with us</div>
+      <h2>Price and quality you can check, not just promises</h2>
+      <div class="why-grid">
+        <div><span class="mark"></span><h3>Side-by-side quotes</h3><p>We compare suitable factories for each request, so you can see where the price comes from.</p></div>
+        <div><span class="mark"></span><h3>Samples before bulk</h3><p>Test the product yourself before committing to a production order.</p></div>
+        <div><span class="mark"></span><h3>Checked before shipping</h3><p>Photos and video of your finished goods, plus third-party inspection when you want it.</p></div>
+        <div><span class="mark"></span><h3>Small trial orders</h3><p>Start with a trial quantity where the factory allows, then scale up.</p></div>
+        <div><span class="mark"></span><h3>Fast, clear replies</h3><p>First response within 24 hours, in plain English.</p></div>
+        <div><span class="mark"></span><h3>One contact</h3><p>We handle factory communication, so you deal with one person from quote to shipment.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="request">
+    <div class="wrap rfq">
+      <div>
+        <div class="eyebrow">Request a quote</div>
+        <h2>Send your sourcing request</h2>
+        <p class="lead">The more detail you share, the more accurate the quotation.</p>
+        <ul class="checklist">
+          <li>Product name, photo link or model you're replacing</li>
+          <li>Key specs (size, power, material, certification)</li>
+          <li>Quantity per order and how often you reorder</li>
+          <li>Target price and destination port or city</li>
+        </ul>
+      </div>
+      <form action="https://formsubmit.co/yex697662@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New sourcing request from website">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <label><span>Your name <span class="req">*</span></span><input name="name" required autocomplete="name"></label>
+        <label><span>Company <span class="req">*</span></span><input name="company" required autocomplete="organization"></label>
+        <label><span>Email <span class="req">*</span></span><input type="email" name="email" required autocomplete="email"></label>
+        <label><span>Country <span class="req">*</span></span><input name="country" required autocomplete="country-name"></label>
+        <label><span>Category</span>
+          <select name="category">
+            <option>Lighting</option><option>Massage chairs</option><option>Other</option>
+          </select>
+        </label>
+        <label><span>Quantity <span class="req">*</span></span><input name="quantity" required placeholder="e.g. 500 pcs"></label>
+        <label class="full"><span>Product and specs <span class="req">*</span></span><textarea name="product" required placeholder="e.g. 100W all-in-one solar street light, LiFePO4, IP65, 3 nights backup"></textarea></label>
+        <label><span>Target price (optional)</span><input name="target_price" placeholder="e.g. USD 45 / pc FOB"></label>
+        <label><span>Destination</span><input name="destination" placeholder="Port or city"></label>
+        <label class="full"><span>Anything else</span><textarea name="notes" placeholder="Certifications, packaging, deadline, links"></textarea></label>
+        <button class="btn" type="submit" style="grid-column:1/-1;justify-content:center">Send request</button>
+        <p class="form-note">We only use your details to reply to this request.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="faq" style="padding-top:0">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow">FAQ</div>
+        <h2>Common questions</h2>
+        <details><summary>What is the minimum order?</summary><p>It depends on the factory and product. We look for factories that accept trial quantities and tell you the MOQ with each quotation.</p></details>
+        <details><summary>Can I get samples first?</summary><p>Yes. We arrange samples before bulk production. Sample and courier costs are quoted upfront.</p></details>
+        <details><summary>How does payment work?</summary><p>Terms are agreed per order and stated clearly in the quotation, typically a deposit before production and the balance before shipment.</p></details>
+        <details><summary>Which shipping terms do you support?</summary><p>EXW, FOB and CIF are common. Tell us your destination and we'll quote accordingly.</p></details>
+      </div>
+      <div>
+        <div class="eyebrow">About</div>
+        <h2>Who you're working with</h2>
+        <p class="lead">I'm Ye Xing, a sourcing contact based in China. I work with partner manufacturers — most closely in lighting and massage chairs — and with an export trading partner who handles contracts and shipping documents.</p>
+        <p class="lead">My job is simple: understand exactly what you need, find factories that can make it well at a fair price, and keep you informed until the goods leave the factory.</p>
+        <p style="margin-top:24px"><a class="btn" href="#request">Send a request</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <div>Ye Xing Sourcing · Factory sourcing from China</div>
+    <div><a href="mailto:yex697662@gmail.com">yex697662@gmail.com</a></div>
+  </div>
+</footer>
+</body>
+</html>
